@@ -31,7 +31,7 @@ function VerifyEmail() {
       password,
       confirmPassword,
     } = signupData;
-
+ 
     dispatch(
       signUp(
         accountType,
